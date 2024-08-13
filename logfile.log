@@ -1,0 +1,69 @@
+[2024-08-12 18:57:34] [ INFO ] [DaoEnMemoria:17] Odontologo guardado en memoria Odontologo{id=1, numeroMatricula='KSD46543', nombre='Castillo', apellido='Gabriela'}
+[2024-08-12 18:57:51] [ INFO ] [DaoEnMemoria:23] Obteniendo lista de todos los odontólogos
+[2024-08-12 19:22:09] [ ERROR] [OdontolgoServiceTest:29] Syntax error in SQL statement "\000d\000a\000d\000aCREATE TABLE ODONTOLOGOS(\000d\000aID INT AUTO_INCREMENT PRIMARY KEY,\000d\000aNUMEROMATRICULA VARCHAR(10) NOT NULL,\000d\000aNOMBRE VARCHAR(50) NOT NULL,\000d\000aAPELLIDO VARCHAR(50) NOT NULL,\000d\000a[*])"; expected "identifier"; SQL statement:
+
+
+CREATE TABLE ODONTOLOGOS(
+ID INT AUTO_INCREMENT PRIMARY KEY,
+NUMEROMATRICULA VARCHAR(10) NOT NULL,
+NOMBRE VARCHAR(50) NOT NULL,
+APELLIDO VARCHAR(50) NOT NULL,
+) [42001-230]
+[2024-08-12 19:25:12] [ INFO ] [DaoH2O:34] Odontologo Odontologo{id=2, numeroMatricula='SDF234243', nombre='Roberto', apellido='Ramirez'}
+[2024-08-12 19:25:23] [ INFO ] [DaoH2O:90] Se han obtenido todos los odontólogos
+[2024-08-12 19:27:44] [ INFO ] [DaoH2O:86] Se han obtenido todos los odontólogos
+[2024-08-12 19:27:44] [ INFO ] [DaoH2O:87] Odontologo{id=1, numeroMatricula='DF23454SF', nombre='LUCIA', apellido='CERPA'}
+[2024-08-12 19:27:58] [ INFO ] [DaoH2O:34] Odontologo Odontologo{id=2, numeroMatricula='SDF234243', nombre='Roberto', apellido='Ramirez'}
+[2024-08-12 19:28:56] [ INFO ] [DaoH2O:86] Se han obtenido todos los odontólogos
+[2024-08-12 19:28:56] [ INFO ] [DaoH2O:87] Odontologo{id=1, numeroMatricula='DF23454SF', nombre='LUCIA', apellido='CERPA'}
+[2024-08-12 19:29:50] [ INFO ] [DaoH2O:34] Odontologo guardado correctamente: Odontologo{id=2, numeroMatricula='SDF234243', nombre='Roberto', apellido='Ramirez'}
+[2024-08-12 19:29:51] [ INFO ] [DaoH2O:86] Se han obtenido todos los odontólogos
+[2024-08-12 19:29:51] [ INFO ] [DaoH2O:87] Odontologo{id=1, numeroMatricula='DF23454SF', nombre='LUCIA', apellido='CERPA'}
+[2024-08-12 19:29:51] [ INFO ] [DaoH2O:87] Odontologo{id=2, numeroMatricula='Ramirez', nombre='Roberto', apellido='SDF234243'}
+[2024-08-12 19:31:41] [ INFO ] [DaoEnMemoria:17] Odontologo guardado en memoria Odontologo{id=1, numeroMatricula='KSD46543', nombre='Castillo', apellido='Gabriela'}
+[2024-08-12 19:31:41] [ INFO ] [DaoEnMemoria:23] Obteniendo lista de todos los odontólogos
+[2024-08-12 19:35:54] [ INFO ] [DaoEnMemoria:17] Odontologo guardado en memoria Odontologo{id=1, numeroMatricula='KSD46543', nombre='Castillo', apellido='Gabriela'}
+[2024-08-12 19:35:54] [ INFO ] [DaoEnMemoria:17] Odontologo guardado en memoria Odontologo{id=1, numeroMatricula='JNT4652', nombre='Vazquez', apellido='Alfredo'}
+[2024-08-12 19:35:54] [ INFO ] [DaoEnMemoria:17] Odontologo guardado en memoria Odontologo{id=2, numeroMatricula='ASD12345', nombre='Perez', apellido='Juan'}
+[2024-08-12 19:35:54] [ INFO ] [DaoEnMemoria:23] Obteniendo lista de todos los odontólogos
+[2024-08-12 19:52:37] [ ERROR] [OdontologoServiceTest:29] Data conversion error converting "'DF23454SF' (ODONTOLOGOS: ""MATRICULA"" INTEGER NOT NULL)"; SQL statement:
+
+
+INSERT INTO ODONTOLOGOS VALUES (DEFAULT, 'DF23454SF', 'LUCIA', 'CERPA') [22018-230]
+[2024-08-12 19:53:48] [ ERROR] [OdontologoServiceTest:29] Data conversion error converting "'DF23454SF' (ODONTOLOGOS: ""MATRICULA"" INTEGER NOT NULL)"; SQL statement:
+
+
+INSERT INTO ODONTOLOGOS VALUES (DEFAULT, 'DF23454SF', 'LUCIA', 'CERPA') [22018-230]
+[2024-08-12 19:55:37] [ ERROR] [OdontologoServiceTest:29] Data conversion error converting "'DF23454SF' (ODONTOLOGOS: ""MATRICULA"" INTEGER NOT NULL)"; SQL statement:
+
+
+INSERT INTO ODONTOLOGOS VALUES (DEFAULT, 'DF23454SF', 'LUCIA', 'CERPA') [22018-230]
+[2024-08-12 19:55:37] [ INFO ] [DaoH2:35] Odontologo guardado en base de datos Odontologo{id=2, numeroMatricula=1234, nombre='Lucia', apellido='Cerpa'}
+[2024-08-12 19:55:37] [ INFO ] [DaoH2:77] Odontologo Odontologo{id=2, numeroMatricula=1234, nombre='Lucia', apellido='Cerpa'}
+[2024-08-12 19:55:58] [ INFO ] [DaoEnMemoria:17] Odontologo guardado en memoria Odontologo{id=1, numeroMatricula=46543, nombre='Castillo', apellido='Gabriela'}
+[2024-08-12 19:55:58] [ INFO ] [DaoEnMemoria:17] Odontologo guardado en memoria Odontologo{id=1, numeroMatricula=4652, nombre='Vazquez', apellido='Alfredo'}
+[2024-08-12 19:55:58] [ INFO ] [DaoEnMemoria:17] Odontologo guardado en memoria Odontologo{id=2, numeroMatricula=12345, nombre='Perez', apellido='Juan'}
+[2024-08-12 19:55:58] [ INFO ] [DaoEnMemoria:23] Obteniendo lista de todos los odontólogos
+[2024-08-12 19:55:58] [ INFO ] [DaoEnMemoria:25] Odontologo{id=1, numeroMatricula=4652, nombre='Vazquez', apellido='Alfredo'}
+[2024-08-12 19:55:58] [ INFO ] [DaoEnMemoria:25] Odontologo{id=2, numeroMatricula=12345, nombre='Perez', apellido='Juan'}
+[2024-08-12 19:56:57] [ ERROR] [OdontologoServiceTest:29] Data conversion error converting "'DF23454SF' (ODONTOLOGOS: ""MATRICULA"" INTEGER NOT NULL)"; SQL statement:
+
+
+INSERT INTO ODONTOLOGOS VALUES (DEFAULT, 'DF23454SF', 'LUCIA', 'CERPA') [22018-230]
+[2024-08-12 19:56:57] [ INFO ] [DaoH2:35] Odontologo guardado en base de datos Odontologo{id=2, numeroMatricula=1234, nombre='Lucia', apellido='Cerpa'}
+[2024-08-12 19:56:57] [ INFO ] [DaoH2:77] Odontologo Odontologo{id=2, numeroMatricula=1234, nombre='Lucia', apellido='Cerpa'}
+[2024-08-12 19:57:09] [ INFO ] [DaoEnMemoria:17] Odontologo guardado en memoria Odontologo{id=1, numeroMatricula=46543, nombre='Castillo', apellido='Gabriela'}
+[2024-08-12 19:57:09] [ INFO ] [DaoEnMemoria:17] Odontologo guardado en memoria Odontologo{id=1, numeroMatricula=4652, nombre='Vazquez', apellido='Alfredo'}
+[2024-08-12 19:57:09] [ INFO ] [DaoEnMemoria:17] Odontologo guardado en memoria Odontologo{id=2, numeroMatricula=12345, nombre='Perez', apellido='Juan'}
+[2024-08-12 19:57:09] [ INFO ] [DaoEnMemoria:23] Obteniendo lista de todos los odontólogos
+[2024-08-12 19:57:09] [ INFO ] [DaoEnMemoria:25] Odontologo{id=1, numeroMatricula=4652, nombre='Vazquez', apellido='Alfredo'}
+[2024-08-12 19:57:09] [ INFO ] [DaoEnMemoria:25] Odontologo{id=2, numeroMatricula=12345, nombre='Perez', apellido='Juan'}
+[2024-08-12 19:57:38] [ ERROR] [OdontologoServiceTest:29] Data conversion error converting "'DF23454SF' (ODONTOLOGOS: ""MATRICULA"" INTEGER NOT NULL)"; SQL statement:
+
+
+INSERT INTO ODONTOLOGOS VALUES (DEFAULT, 'DF23454SF', 'LUCIA', 'CERPA') [22018-230]
+[2024-08-12 19:57:38] [ INFO ] [DaoH2:35] Odontologo guardado en base de datos Odontologo{id=2, numeroMatricula=1234, nombre='Lucia', apellido='Cerpa'}
+[2024-08-12 19:57:49] [ ERROR] [OdontologoServiceTest:29] Data conversion error converting "'DF23454SF' (ODONTOLOGOS: ""MATRICULA"" INTEGER NOT NULL)"; SQL statement:
+
+
+INSERT INTO ODONTOLOGOS VALUES (DEFAULT, 'DF23454SF', 'LUCIA', 'CERPA') [22018-230]
